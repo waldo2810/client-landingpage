@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(images/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+nav {
+  flex: 1;
+  width: 100%;
+  color: white;
+  font-family: Poppins;
+  font-weight: 300;
+  background-color: rgba(39, 39, 39, 1);
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-family: Montserrat, sans-serif;
+  font-weight: lighter;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding-top: 3%;
+}
+
+h3 {
+  font-family: Montserrat, sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding-top: 3%;
+}
+
+.container {
+  margin: 0 auto;
+  width: 380px;
+  padding-top: 3%;
+}
+
+.wrapper {
+  background-color: rgba(255, 255, 255, 0.19);
+  padding: 20px;
+  width: 380px;
+}
+
+form {
+  font-family: Montserrat, sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+  color: white;
+  padding-left: 5%;
+}
+
+input {
+  border-style: none;
+  display: block;
+  width: 300px;
+  height: 25px;
+  padding: 5px;
+  background-color: #c4c4c4;
+}
+
+.submit-btn {
+  font-family: Montserrat;
+  font-weight: 600;
+  color: black;
+  background-color: #7ba535;
+  cursor: pointer;
+  border-style: none;
+  width: 150px;
+  margin: auto;
+  height: 40px;
+  border-radius: 50px;
+  transform: translateY(30%);
+}
+
+a {
+  padding-left: 30%;
+}
+
+.watch-btn {
+  font-family: Montserrat;
+  font-weight: 600;
+  color: whitesmoke;
+  background-color: transparent;
+  cursor: pointer;
+  border-color: #81c416;
+  width: 150px;
+  margin: auto;
+  height: 40px;
+  border-radius: 50px;
+  transform: translateY(50%);
+}
+
+@media screen and (max-width: 1000px) {
+  h2 {
+    font-size: 20px;
+    padding: 8% 10%;
+  }
+
+  h3 {
+    font-size: 15px;
+    padding: 8% 10%;
+  }
+}
